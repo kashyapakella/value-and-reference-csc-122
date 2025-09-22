@@ -1,3 +1,5 @@
 #include <string>
 
-std::string hello();
+void functionReference(int &a);
+
+int functionValue(int a);

@@ -5,6 +5,10 @@
 
 #include "../src/hello.hpp"
 
-TEST_CASE( "it returns Hello World" ) {
-    REQUIRE( hello() == "Hello World!" );
+TEST_CASE("it returns Hello World")
+{
+    REQUIRE(functionValue(0) == 1);
+    REQUIRE(functionValue(1) == 2);
+    REQUIRE(functionValue(2) == 3);
+    REQUIRE(functionValue(3) == 4);
 }

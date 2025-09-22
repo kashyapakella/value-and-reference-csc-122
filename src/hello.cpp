@@ -1,5 +1,12 @@
 #include <string>
 
-std::string hello() {
-   return "Hello World!";
+void functionReference(int &a)
+{
+   ++a;
+}
+
+int functionValue(int a)
+{
+
+   return ++a;
 }

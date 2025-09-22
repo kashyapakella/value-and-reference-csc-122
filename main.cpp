@@ -2,6 +2,11 @@
 
 #include "src/hello.hpp"
 
-int main() {
-  std::cout << hello() << std::endl;
+int main()
+{
+  int num = 9;
+
+  std::cout << functionValue(num);
+
+  return 0;
 }
